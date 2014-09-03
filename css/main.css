@@ -1,7 +1,9 @@
 body {
-    background: url(http://img.wallpaperstock.net:81/grand-stream-wallpapers_36579_2560x1600.jpg);
-    background-size: 2000px 2300px; 
+    background-color: gray;
+    background: url("../img/grand-stream-2560x1600.jpg");
+    background-size: 1600px 600px; 
     background-repeat: no-repeat;
+    background-position: center top;
 }
 
 
@@ -143,6 +145,7 @@ section{
 }
 
 /*Hovering images css*/
+.carre_couleur
 {
   width:500px;
   height: 500px;
@@ -193,7 +196,7 @@ section{
 .big_acced
 {
   color:#ffffff;
-  font-size:18px;
+  font-size:25px;
   font-weight: 400;
   font-family:'Roboto';
 }
@@ -204,6 +207,13 @@ section{
   font-weight: 400;
   font-family:'Roboto';
 }
+
+
+
+
+
+
+
 /*hamburger*/
 
 {
@@ -249,7 +259,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
-html, body {
+html{
   width: 100%;
   height: 100%;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
