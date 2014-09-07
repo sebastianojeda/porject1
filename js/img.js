@@ -1,8 +1,3 @@
-$(".warning").hide();
-
-$(".warning").show("slow");
-
-
 (function(){
     var $mainWrapper = $("#main-wrapper");
 
@@ -13,4 +8,11 @@ $(".warning").show("slow");
 
 
 })();
+
+
+$(".nav-btn").click(function(){
+      $("#sidebar").toggleClass("active");
+      $("#content").toggleClass("active");
+      $(".nav-btn").toggleClass("active");
+});
 

@@ -20,7 +20,7 @@ h1{
 
 body { 
   background-color:324252;
-  background: url(http://img.wallpaperstock.net:81/grand-stream-wallpapers_36579_2560x1600.jpg) no-repeat center center fixed; 
+  background: url(http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/03/01-Znppn6x.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,7 +38,7 @@ body {
     text-align: center;
     background-color:azure;
     color:black;
-    width:100%;
+    width:80%;
     font-size: 1.2em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
@@ -230,7 +230,6 @@ a{
   top:0;
   z-index: 1030;
   margin-bottom: 0;
-
 }
 .nav-btn{
   position: absolute;
@@ -239,7 +238,6 @@ a{
   height: 50px;
   width: 50px;
   background: url('http://i.imgur.com/DY8ozqQ.png') rgba(0,0,0,0.3) no-repeat;
-  background-color:#ffffff;
   background-position: center center;
   background-size: 50%;
   opacity: 0.9;
@@ -280,12 +278,12 @@ a{
   font-size: 1.5em;
 }
 .navigation ul li a{
-  color:#FFFFFF;
+  color:#FFF;
   text-shadow:0px 0px 10px rgba(0,0,0,0.8);
   text-decoration:none;
 }
 .navigation ul li a:hover{
-  background:#FFFFFF;
+  background:#FFF;
   width:80%;
   color:#000;
   border-radius:5px;
@@ -506,3 +504,8 @@ a{
   letter-spacing: 1px;
   text-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
 }
+
+
+
+
+

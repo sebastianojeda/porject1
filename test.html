@@ -3,48 +3,44 @@
 <head>
 
     <meta charset="UTF-8">  
-    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" type="text/css" href="test/test.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<header class="header">
 
-   <nav>
-  
-    <input id="nav" type="checkbox" />
-  
-    <label for="nav">
-      <b><i></i><i></i><i></i></b>
-    </label>
    
-  
-  <menu>
-    <li><a href="#">home</a></li>
-    <li><a href="#about">about me</a></li>
-    <li><a href="#services">project</a></li>
-    <li><a href="#contact">music</a></li>
-    
-  </menu>
-  </nav>
-  </header>
-<a class="nav-logo" href="#">Sebastian Ojeda</a>
-
-<div class="menu-filler"></div>
-  <div class="visual">
+   <div class="stuck-head">
+    <a class="nav-btn" id="nav-open" href="#sidebar"menu><span>menu</span></a>
+  </div>
+  <div id="leonardo">
+     <div id="sidebar">
+           <nav class="navigation">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#home">Blog</a></li>
+              <li><a href="#home">About Us</a></li>
+              <li><a href="#home">Contact Us</a></li>
+            </ul>
+          </nav>
+      </div>
+       
+    <div class="menu-filler"></div>
+    <div class="visual">
     
     <div class=logo>
-        <h1>My Webpage</h1>
+        <h1>My Website</h1>
         <br><br><br>
 
         <h2>This is my life</h2>
     </div>
-  </div>
+    </div>
 
   
-<!--Practice content-->
+<!--This part of code is what creates the SPA-->
     <a name=about>
     <div class=content-box-1>
             Whats up guys my name is Sebastian Ojeda and im 15 years old. I go to Pasadena High School
@@ -53,44 +49,38 @@
 
     <div class=content-box-2>
         <a name="services">
-        <div class="menu-filler"></div>
-            <div align="center" class="fond">
-
-    <div class="carre_couleur base_hov" style="background-color:#f8b334;">
-      <div class="retract" style="background-color:#f8b334;"><img src="img/me2.jpg"></div>
-      <div class="acced">
-        <div class="big_acced" style="color:#f39c12;">BEST HOME</div>
-        <div class="middle_acced">This home is the best</div>
-      </div>
-    </div>
-
-
-
-
-    <div class="carre_couleur base_hov" style="background-color:#2ecc71;">
-      <div class="retract" style="background-color:#2ecc71;"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/photo.png"></div>
-      <div class="acced">
-        <div class="big_acced" style="color:#27ae60;">BEST PICS</div>
-        <div class="middle_acced">This pics is the best</div>
-      </div>
-    </div>
-
-
-
-    <div class="carre_couleur base_hov" style="background-color:#e74c3c;">
-      <div class="retract" style="background-color:#e74c3c;"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/ordi.png"></div>
-      <div class="acced">
-        <div class="big_acced" style="color:#c0392b;">BEST PC</div>
-        <div class="middle_acced">This computer is the best</div>
-      </div>
-    </div>
- 
-</div>
-
+    <div class="menu-filler"></div>
         </a>
 
+    <div align="center" class="fond">
+
+    <div class="carre_couleur base_hov" style="background-color:#f8b334;">
+    <div class="retract" style="background-color:#f8b334;"><img src="img/me2.jpg"></div>
+        <div class="acced">
+        <div class="big_acced" style="color:#f39c12;">BEST HOME</div>
+        <div class="middle_acced">This home is the best</div>
     </div>
-   
+    </div>
+
+    <div class="carre_couleur base_hov" style="background-color:#2ecc71;">
+    <div class="retract" style="background-color:#2ecc71;"><img src="img/me4.jpg"></div>
+        <div class="acced">
+        <div class="big_acced" style="color:#27ae60;">BEST PICS</div>
+        <div class="middle_acced">This pics is the best</div>
+    </div>
+    </div>
+
+    <div class="carre_couleur base_hov" style="background-color:#e74c3c;">
+    <div class="retract" style="background-color:#e74c3c;"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/ordi.png"></div>
+        <div class="acced">
+        <div class="big_acced" style="color:#c0392b;">BEST PC</div>
+        <div class="middle_acced">This computer is the best</div>
+    </div>
+    </div> 
+
+    </div>
+
+    </div>   
 
     <div class=content-box-3>
         <a name="contact">
@@ -98,8 +88,17 @@
           
         </a>
     </div>
+
+    <div class=content-box-4>
+        <a name="contact">
+        <div class="menu-filler"></div>          
+        </a>
+    </div>
+    <!--This is the end of the SPA-->
     
-<script type="text/javascript" href="js/bootstrap.min.js"></script>
-<script type="text/javascript" href="js/bootstrap.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="test/yo.js"></script>
+         <script type="text/javascript" href="js/bootstrap.min.js"></script>
+         <script type="text/javascript" href="js/bootstrap.js"></script>
 </body>
 </html>
