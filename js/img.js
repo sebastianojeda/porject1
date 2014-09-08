@@ -1,3 +1,5 @@
+
+//All of this code goes to my hamburger.//
 (function(){
     var $mainWrapper = $("#main-wrapper");
 
